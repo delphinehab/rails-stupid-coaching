@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <h1>Your coach answer </h1>
+      <h3 class="question">You ask your coach the following question : </h3>
+      <p><%= @message %></p>
+    <div class="response">
+      <h3>Your coach response :</h3>
+      <p><%= @answer %></p>
+    </div>
+   <p><%= link_to "Ask a new question", "http://http://localhost:3000/ask" %></p>
+  </body>
+</div>
+</html>
